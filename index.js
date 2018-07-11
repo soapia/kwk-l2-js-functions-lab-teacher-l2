@@ -14,3 +14,9 @@ function distanceTravelledInFeet(first, second) {
   return Math.abs(blocks) * 264
 }
 
+function calculatesFarePrice(first, second) {
+  let distance = distanceTravelledInFeet(first, second)
+  if (400 < distance && distance < 2000) {
+    
+  }
+}
