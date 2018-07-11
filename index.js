@@ -13,3 +13,4 @@ function distanceTravelledInFeet(first, second) {
   let blocks = second - first
   return Math.abs(blocks) * 264
 }
+
