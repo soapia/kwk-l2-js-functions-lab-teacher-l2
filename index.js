@@ -11,5 +11,5 @@ function distanceFromHqInFeet(street) {
 
 function distanceTravelledInFeet(first, second) {
   let blocks = second - first
-  return blocks * 264
+  return Math.abs(blocks) * 264
 }
