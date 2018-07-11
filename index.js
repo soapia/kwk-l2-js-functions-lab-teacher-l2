@@ -9,4 +9,7 @@ function distanceFromHqInFeet(street) {
   return distanceFromHqInBlocks(street) * 264
 }
 
-function 
+function distanceTravelledInFeet(first, second) {
+  let blocks = second - first
+  return blocks * 264
+}
